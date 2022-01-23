@@ -1,0 +1,179 @@
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 17:10 ?        00:00:00 /sbin/init splash
+root           2       0  0 17:10 ?        00:00:00 [kthreadd]
+root           3       2  0 17:10 ?        00:00:00 [rcu_gp]
+root           4       2  0 17:10 ?        00:00:00 [rcu_par_gp]
+root           5       2  0 17:10 ?        00:00:01 [kworker/0:0-events]
+root           6       2  0 17:10 ?        00:00:00 [kworker/0:0H-events_highpri]
+root           9       2  0 17:10 ?        00:00:00 [mm_percpu_wq]
+root          10       2  0 17:10 ?        00:00:00 [rcu_tasks_rude_]
+root          11       2  0 17:10 ?        00:00:00 [rcu_tasks_trace]
+root          12       2  0 17:10 ?        00:00:00 [ksoftirqd/0]
+root          13       2  0 17:10 ?        00:00:00 [rcu_sched]
+root          14       2  0 17:10 ?        00:00:00 [migration/0]
+root          15       2  0 17:10 ?        00:00:00 [idle_inject/0]
+root          16       2  0 17:10 ?        00:00:00 [cpuhp/0]
+root          17       2  0 17:10 ?        00:00:00 [kdevtmpfs]
+root          18       2  0 17:10 ?        00:00:00 [netns]
+root          19       2  0 17:10 ?        00:00:00 [inet_frag_wq]
+root          20       2  0 17:10 ?        00:00:00 [kauditd]
+root          21       2  0 17:10 ?        00:00:00 [khungtaskd]
+root          22       2  0 17:10 ?        00:00:00 [oom_reaper]
+root          23       2  0 17:10 ?        00:00:00 [writeback]
+root          24       2  0 17:10 ?        00:00:00 [kcompactd0]
+root          25       2  0 17:10 ?        00:00:00 [ksmd]
+root          26       2  0 17:10 ?        00:00:00 [khugepaged]
+root          72       2  0 17:10 ?        00:00:00 [kintegrityd]
+root          73       2  0 17:10 ?        00:00:00 [kblockd]
+root          74       2  0 17:10 ?        00:00:00 [blkcg_punt_bio]
+root          75       2  0 17:10 ?        00:00:00 [tpm_dev_wq]
+root          76       2  0 17:10 ?        00:00:00 [ata_sff]
+root          77       2  0 17:10 ?        00:00:00 [md]
+root          78       2  0 17:10 ?        00:00:00 [edac-poller]
+root          79       2  0 17:10 ?        00:00:00 [devfreq_wq]
+root          80       2  0 17:10 ?        00:00:00 [watchdogd]
+root          82       2  0 17:10 ?        00:00:00 [kworker/0:1H-kblockd]
+root          84       2  0 17:10 ?        00:00:00 [kswapd0]
+root          85       2  0 17:10 ?        00:00:00 [ecryptfs-kthrea]
+root          87       2  0 17:10 ?        00:00:00 [kthrotld]
+root          88       2  0 17:10 ?        00:00:00 [acpi_thermal_pm]
+root          90       2  0 17:10 ?        00:00:00 [scsi_eh_0]
+root          91       2  0 17:10 ?        00:00:00 [scsi_tmf_0]
+root          92       2  0 17:10 ?        00:00:00 [scsi_eh_1]
+root          93       2  0 17:10 ?        00:00:00 [scsi_tmf_1]
+root          94       2  0 17:10 ?        00:00:00 [kworker/u2:3-flush-8:0]
+root          95       2  0 17:10 ?        00:00:00 [vfio-irqfd-clea]
+root          96       2  0 17:10 ?        00:00:00 [mld]
+root          97       2  0 17:10 ?        00:00:00 [ipv6_addrconf]
+root         107       2  0 17:10 ?        00:00:00 [kstrp]
+root         110       2  0 17:10 ?        00:00:00 [zswap-shrink]
+root         111       2  0 17:10 ?        00:00:00 [kworker/u3:0]
+root         116       2  0 17:10 ?        00:00:00 [charger_manager]
+root         156       2  0 17:10 ?        00:00:00 [scsi_eh_2]
+root         158       2  0 17:10 ?        00:00:00 [scsi_tmf_2]
+root         180       2  0 17:10 ?        00:00:00 [jbd2/sda5-8]
+root         181       2  0 17:10 ?        00:00:00 [ext4-rsv-conver]
+root         221       1  0 17:10 ?        00:00:00 /lib/systemd/systemd-journald
+root         248       1  0 17:10 ?        00:00:00 /lib/systemd/systemd-udevd
+root         266       2  0 17:10 ?        00:00:00 [loop0]
+root         273       2  0 17:10 ?        00:00:00 [loop1]
+root         274       2  0 17:10 ?        00:00:00 [loop2]
+root         276       2  0 17:10 ?        00:00:00 [loop3]
+root         277       2  0 17:10 ?        00:00:00 [loop4]
+root         300       2  0 17:10 ?        00:00:00 [cryptd]
+root         301       2  0 17:10 ?        00:00:00 [ttm_swap]
+root         303       2  0 17:10 ?        00:00:00 [irq/18-vmwgfx]
+root         305       2  0 17:10 ?        00:00:00 [card0-crtc0]
+root         306       2  0 17:10 ?        00:00:00 [card0-crtc1]
+root         308       2  0 17:10 ?        00:00:00 [card0-crtc2]
+root         309       2  0 17:10 ?        00:00:00 [card0-crtc3]
+root         311       2  0 17:10 ?        00:00:00 [card0-crtc4]
+root         313       2  0 17:10 ?        00:00:00 [card0-crtc5]
+root         315       2  0 17:10 ?        00:00:00 [card0-crtc6]
+root         317       2  0 17:10 ?        00:00:00 [card0-crtc7]
+systemd+     499       1  0 17:10 ?        00:00:00 /lib/systemd/systemd-resolved
+systemd+     501       1  0 17:10 ?        00:00:00 /lib/systemd/systemd-timesyncd
+root         535       1  0 17:10 ?        00:00:00 /usr/lib/accountsservice/accounts-daemon
+root         536       1  0 17:10 ?        00:00:00 /usr/sbin/acpid
+avahi        540       1  0 17:10 ?        00:00:00 avahi-daemon: running [chengxi600-VirtualBox.local]
+root         542       1  0 17:10 ?        00:00:00 /usr/sbin/cron -f
+root         543       1  0 17:10 ?        00:00:00 /usr/sbin/cupsd -l
+message+     545       1  0 17:10 ?        00:00:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         547       1  0 17:10 ?        00:00:00 /usr/sbin/NetworkManager --no-daemon
+root         559       1  0 17:10 ?        00:00:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root         561       1  0 17:10 ?        00:00:00 /usr/lib/policykit-1/polkitd --no-debug
+syslog       570       1  0 17:10 ?        00:00:00 /usr/sbin/rsyslogd -n -iNONE
+root         574       1  0 17:10 ?        00:00:01 /usr/lib/snapd/snapd
+root         575       1  0 17:10 ?        00:00:00 /usr/libexec/switcheroo-control
+root         578       1  0 17:10 ?        00:00:00 /lib/systemd/systemd-logind
+root         581       1  0 17:10 ?        00:00:00 /usr/lib/udisks2/udisksd
+root         582       1  0 17:10 ?        00:00:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+avahi        598     540  0 17:10 ?        00:00:00 avahi-daemon: chroot helper
+root         619       1  0 17:10 ?        00:00:00 /usr/sbin/cups-browsed
+root         639       1  0 17:10 ?        00:00:00 /usr/sbin/ModemManager --filter-policy=strict
+root         646       1  0 17:10 ?        00:00:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         659       1  0 17:10 ?        00:00:00 /usr/sbin/gdm3
+whoopsie     695       1  0 17:10 ?        00:00:00 /usr/bin/whoopsie -f
+kernoops     697       1  0 17:10 ?        00:00:00 /usr/sbin/kerneloops --test
+kernoops     699       1  0 17:10 ?        00:00:00 /usr/sbin/kerneloops
+rtkit        739       1  0 17:10 ?        00:00:00 /usr/libexec/rtkit-daemon
+root         840       1  0 17:10 ?        00:00:00 /usr/lib/upower/upowerd
+colord      1138       1  0 17:10 ?        00:00:00 /usr/libexec/colord
+root        1205     659  0 17:10 ?        00:00:00 gdm-session-worker [pam/gdm-password]
+chengxi+    1210       1  0 17:10 ?        00:00:00 /lib/systemd/systemd --user
+chengxi+    1211    1210  0 17:10 ?        00:00:00 (sd-pam)
+chengxi+    1216    1210  0 17:10 ?        00:00:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+chengxi+    1218    1210  0 17:10 ?        00:00:00 /usr/libexec/tracker-miner-fs
+chengxi+    1221    1210  0 17:10 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+chengxi+    1224       1  0 17:10 ?        00:00:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+chengxi+    1229    1210  0 17:10 ?        00:00:00 /usr/libexec/gvfsd
+chengxi+    1234    1210  0 17:10 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+chengxi+    1237    1210  0 17:10 ?        00:00:00 /usr/libexec/gvfs-udisks2-volume-monitor
+chengxi+    1261    1210  0 17:10 ?        00:00:00 /usr/libexec/gvfs-afc-volume-monitor
+chengxi+    1266    1210  0 17:10 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+chengxi+    1270    1210  0 17:10 ?        00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+chengxi+    1274    1210  0 17:10 ?        00:00:00 /usr/libexec/goa-daemon
+chengxi+    1282    1210  0 17:10 ?        00:00:00 /usr/libexec/goa-identity-service
+chengxi+    1284    1210  0 17:10 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+chengxi+    1300    1205  0 17:10 tty2     00:00:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+chengxi+    1302    1300  0 17:10 tty2     00:00:15 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+chengxi+    1314    1300  0 17:10 tty2     00:00:00 /usr/libexec/gnome-session-binary --systemd --systemd --session=ubuntu
+chengxi+    1384    1314  0 17:11 ?        00:00:00 /usr/bin/ssh-agent /usr/bin/im-launch env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+chengxi+    1408    1210  0 17:11 ?        00:00:00 /usr/libexec/at-spi-bus-launcher
+chengxi+    1413    1408  0 17:11 ?        00:00:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+chengxi+    1451    1210  0 17:11 ?        00:00:00 /usr/libexec/gnome-session-ctl --monitor
+chengxi+    1471    1210  0 17:11 ?        00:00:00 /usr/libexec/dconf-service
+chengxi+    1475    1210  0 17:11 ?        00:00:00 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+chengxi+    1489    1210  2 17:11 ?        00:00:49 /usr/bin/gnome-shell
+chengxi+    1511    1489  0 17:11 ?        00:00:00 ibus-daemon --panel disable --xim
+chengxi+    1517    1511  0 17:11 ?        00:00:00 /usr/libexec/ibus-memconf
+chengxi+    1518    1511  0 17:11 ?        00:00:01 /usr/libexec/ibus-extension-gtk3
+chengxi+    1521    1210  0 17:11 ?        00:00:00 /usr/libexec/ibus-x11 --kill-daemon
+chengxi+    1523    1210  0 17:11 ?        00:00:00 /usr/libexec/ibus-portal
+chengxi+    1534    1210  0 17:11 ?        00:00:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+chengxi+    1537    1210  0 17:11 ?        00:00:00 /usr/libexec/xdg-permission-store
+chengxi+    1542    1210  0 17:11 ?        00:00:00 /usr/libexec/gnome-shell-calendar-server
+chengxi+    1548    1210  0 17:11 ?        00:00:00 /usr/libexec/evolution-source-registry
+chengxi+    1558    1210  0 17:11 ?        00:00:00 /usr/libexec/evolution-calendar-factory
+chengxi+    1568    1210  0 17:11 ?        00:00:00 /usr/libexec/evolution-addressbook-factory
+chengxi+    1587    1229  0 17:11 ?        00:00:00 /usr/libexec/gvfsd-trash --spawner :1.3 /org/gtk/gvfs/exec_spaw/0
+chengxi+    1592    1210  0 17:11 ?        00:00:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+chengxi+    1606    1210  0 17:11 ?        00:00:00 /usr/libexec/gsd-a11y-settings
+chengxi+    1608    1210  0 17:11 ?        00:00:00 /usr/libexec/gsd-color
+chengxi+    1610    1210  0 17:11 ?        00:00:00 /usr/libexec/gsd-datetime
+chengxi+    1611    1210  0 17:11 ?        00:00:00 /usr/libexec/gsd-housekeeping
+chengxi+    1614    1210  0 17:11 ?        00:00:00 /usr/libexec/gsd-keyboard
+chengxi+    1619    1210  0 17:11 ?        00:00:00 /usr/libexec/gsd-media-keys
+chengxi+    1620    1210  0 17:11 ?        00:00:00 /usr/libexec/gsd-power
+chengxi+    1622    1210  0 17:11 ?        00:00:00 /usr/libexec/gsd-print-notifications
+chengxi+    1623    1210  0 17:11 ?        00:00:00 /usr/libexec/gsd-rfkill
+chengxi+    1624    1210  0 17:11 ?        00:00:00 /usr/libexec/gsd-screensaver-proxy
+chengxi+    1630    1210  0 17:11 ?        00:00:00 /usr/libexec/gsd-sharing
+chengxi+    1633    1210  0 17:11 ?        00:00:00 /usr/libexec/gsd-smartcard
+chengxi+    1639    1210  0 17:11 ?        00:00:00 /usr/libexec/gsd-sound
+chengxi+    1643    1210  0 17:11 ?        00:00:00 /usr/libexec/gsd-usb-protection
+chengxi+    1645    1210  0 17:11 ?        00:00:00 /usr/libexec/gsd-wacom
+chengxi+    1651    1210  0 17:11 ?        00:00:00 /usr/libexec/gsd-wwan
+chengxi+    1655    1210  0 17:11 ?        00:00:00 /usr/libexec/gsd-xsettings
+chengxi+    1668    1475  0 17:11 ?        00:00:00 /usr/libexec/gsd-disk-utility-notify
+chengxi+    1683    1475  0 17:11 ?        00:00:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+chengxi+    1692    1210  0 17:11 ?        00:00:00 /usr/libexec/gsd-printer
+chengxi+    1773    1511  0 17:11 ?        00:00:00 /usr/libexec/ibus-engine-simple
+chengxi+    1801    1210  0 17:11 ?        00:00:00 /usr/libexec/gvfsd-metadata
+chengxi+    1908    1475  0 17:12 ?        00:00:00 update-notifier
+chengxi+    2110    1210  0 17:14 ?        00:00:05 /usr/libexec/gnome-terminal-server
+chengxi+    2112    1210  0 17:14 ?        00:00:00 /usr/bin/seahorse --gapplication-service
+chengxi+    2114    1210  0 17:14 ?        00:00:00 /usr/bin/gnome-calendar --gapplication-service
+chengxi+    2196    2110  0 17:14 pts/0    00:00:00 bash
+chengxi+    3990    1210  3 17:16 ?        00:00:54 /usr/lib/firefox/firefox -new-window
+chengxi+    4061    3990  0 17:16 ?        00:00:02 /usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 1 -prefMapSize 230514 -jsInit 285716 -parentBuildID 20210804193234 -appdir /usr/lib/firefox/browser 3990 true tab
+chengxi+    4075    3990  0 17:16 ?        00:00:01 /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 85 -prefMapSize 230514 -jsInit 285716 -parentBuildID 20210804193234 -appdir /usr/lib/firefox/browser 3990 true tab
+chengxi+    4179    3990  1 17:16 ?        00:00:19 /usr/lib/firefox/firefox -contentproc -childID 4 -isForBrowser -prefsLen 8152 -prefMapSize 230514 -jsInit 285716 -parentBuildID 20210804193234 -appdir /usr/lib/firefox/browser 3990 true tab
+chengxi+    4199    3990  0 17:16 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -parentBuildID 20210804193234 -prefsLen 8285 -prefMapSize 230514 -appdir /usr/lib/firefox/browser 3990 true rdd
+chengxi+    4432    3990  0 17:20 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 6 -isForBrowser -prefsLen 11567 -prefMapSize 230514 -jsInit 285716 -parentBuildID 20210804193234 -appdir /usr/lib/firefox/browser 3990 true tab
+chengxi+    4468    3990  0 17:21 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -parentBuildID 20210804193234 -prefsLen 13951 -prefMapSize 230514 -appdir /usr/lib/firefox/browser 3990 true socket
+root        4508       2  0 17:23 ?        00:00:00 [kworker/0:2-events]
+root        5593       2  0 17:27 ?        00:00:00 [kworker/u2:0-ext4-rsv-conversion]
+chengxi+    5610    1224  0 17:30 ?        00:00:00 /usr/bin/ssh-agent -D -a /run/user/1000/keyring/.ssh
+root        5991       2  0 17:41 ?        00:00:00 [kworker/u2:1-events_unbound]
+chengxi+    5992    2196  0 17:42 pts/0    00:00:00 ps -ef
