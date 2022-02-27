@@ -1,0 +1,40 @@
+#!/usr/bin/env python3
+import random
+from argparse import ArgumentParser
+
+list_of_words = open("words.txt").read().splitlines()
+
+parser = ArgumentParser()
+parser.add_argument("-w", "--words", type=int, default=4,
+                    help="number of words to use")
+parser.add_argument("-c", "--caps", type=int, default=0,
+                    help="number of words to use")
+parser.add_argument("-n", "--numbers", type=int, default=0,
+                    help="number of words to use")
+parser.add_argument("-s", "--symbols", type=int, default=0,
+                    help="number of words to use")
+
+args = parser.parse_args()
+
+password = ''
+words_used = []
+
+#random words
+for i in range(args.words): words_used.append(random.choice(list_of_words))
+
+#capitalize words
+to_cap = random.sample(words_used, k=args.caps)
+for word in words_used:
+    password += word.capitalize() if word in to_cap else word
+
+#add numbers
+for i in range(args.numbers):
+    random_idx = random.randint(0, len(password))
+    password = password[:random_idx] + str(random.randint(0, 9)) + password[random_idx:]
+
+#add symbols
+for i in range(args.symbols):
+    random_idx = random.randint(0, len(password))
+    password = password[:random_idx] + random.choice("~!@#$%^&*.:;") + password[random_idx:]
+
+print(password)
