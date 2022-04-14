@@ -1,0 +1,23 @@
+# Last Modified: Fri Apr  1 20:17:29 2022
+#include <tunables/global>
+
+/home/chengxi600/p2 flags=(audit) {
+  #include <abstractions/base>
+  #include <abstractions/user-tmp>
+
+  /home/chengxi600/p2 mr,
+  /tmp/* rw,
+  /home/chengxi600/.project2/config w,
+  /var/log/syslog r,
+  /etc/hosts r,
+  /etc/timezone r,
+  /proc/uptime r,
+  /etc/hostid r,
+  /sys/kernel/mm/transparent_hugepage/hpage_pmd_size rw,
+  /home/chengxi600/template r,
+  network tcp,
+  /etc/passwd r,
+  deny /proc/stat rw,
+  deny /proc/meminfo rw,
+
+}
